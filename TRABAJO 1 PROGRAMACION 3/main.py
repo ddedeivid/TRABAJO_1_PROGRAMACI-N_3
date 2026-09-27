@@ -94,8 +94,7 @@ def main():
                 print(f"\nNo se encontró ningún cliente con esa cédula. Comparaciones realizadas: {comparaciones}")
 
     except Exception as error:
-        # Red de seguridad final: ningún error no previsto debe cerrar el programa
-        # de golpe con una traza de error para el usuario final.
+        # Red de seguridad final: ningún error no previsto debe cerrar el programa de golpe con una traza de error para el usuario final. Esto lo conseguí en la documentación de python https://docs.python.org/es/3/tutorial/errors.html
         print(f"\nOcurrió un error inesperado: {error}")
         print("El programa se cerrará de forma segura.")
 
