@@ -33,9 +33,7 @@ def buscar_por_cedula(arreglo_clientes, cedula_buscada):
 
 
 def mostrar_reportes(arreglo_clientes):
-    print("\n============================================")
     print("           REPORTE GENERAL")
-    print("============================================")
     print(f"1. Total de clientes atendidos: {calcular_total_clientes(arreglo_clientes)}")
     print(f"2. Ingresos totales recibidos: ${calcular_ingresos_totales(arreglo_clientes):,}".replace(",", "."))
     print(f"3. Clientes que van para extracción de dientes: {contar_por_tipo_atencion(arreglo_clientes, 'Extracción')}")
