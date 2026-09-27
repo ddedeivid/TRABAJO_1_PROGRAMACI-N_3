@@ -57,9 +57,7 @@ def capturar_cliente():
 def main():
     arreglo_clientes = []  # Arreglo (lista) en memoria con todos los clientes
 
-    print("==========================================")
     print(" CONSULTORIO ODONTOLÓGICO - DR. XXX")
-    print("==========================================")
 
     try:
         seguir_registrando = True
